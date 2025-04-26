@@ -4,7 +4,7 @@ This project explores the **Hotel Bookings Dataset** to extract actionable busin
 Using **SQL, Python (pandas, matplotlib)**, and **data visualization techniques**, the project answers key business questions about customer behavior, hotel performance, seasonality, and booking channels.
 
 
-## 🔥 Key Insights
+## Key Insights
 - **City Hotels** dominate in total bookings, but **Resort Hotels** have **longer average stays**.
 - **Cancellation rates** are notably higher for City Hotels.
 - **Summer months** (especially [insert peak month]) see the highest booking volumes.
