@@ -15,9 +15,9 @@ Using **SQL, Python (pandas, matplotlib)**, and **data visualization techniques*
 
 https://chvh7vulwjyxfvg98qg82c.streamlit.app/
 
--Takes booking details (like lead time, deposit type, customer type, etc.)
--Uses a logistic regression model to predict cancellation
--If risk is high, it suggests actions like:
-  -Offer a 5% discount
-  -Add free breakfast
-  -Allow late check-out
+- Takes booking details (like lead time, deposit type, customer type, etc.)
+- Uses a logistic regression model to predict cancellation
+- If risk is high, it suggests actions like:
+  - Offer a 5% discount
+  - Add free breakfast
+  - Allow late check-out
