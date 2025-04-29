@@ -1,5 +1,4 @@
-
-        "import streamlit as st\n",
+"import streamlit as st\n",
         "import numpy as np\n",
         "import joblib\n",
         "import requests\n",
