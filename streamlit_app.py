@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPbBxvGLXzCrOEJzE0hKAny",
+      "authorship_tag": "ABX9TyPVNeeDJrfLl6rPKYbgVOET",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -183,17 +183,17 @@
         "\n",
         "    # --- Display Result ---\n",
         "    if prediction == 1:\n",
-        "      st.error(\"⚠️ This booking is likely to be CANCELED!\")\n",
+        "        st.error(\"⚠️ This booking is likely to be CANCELED!\")\n",
         "\n",
-        "      st.subheader(\"🛠 Suggested Actions to Reduce Cancellation Risk:\")\n",
-        "      offer_discount = st.checkbox(\"📧 Send 5% discount email\")\n",
-        "      offer_breakfast = st.checkbox(\"🍳 Add free breakfast\")\n",
-        "      allow_late_checkout = st.checkbox(\"🕐 Allow late check-in/out\")\n",
+        "        st.subheader(\"🛠 Suggested Actions to Reduce Cancellation Risk:\")\n",
+        "        offer_discount = st.checkbox(\"📧 Send 5% discount email\")\n",
+        "        offer_breakfast = st.checkbox(\"🍳 Add free breakfast\")\n",
+        "        allow_late_checkout = st.checkbox(\"🕐 Allow late check-in/out\")\n",
         "\n",
-        "      if offer_discount or offer_breakfast or allow_late_checkout:\n",
-        "        st.success(\"✅ Actions selected! Make sure to notify the guest.\")\n",
+        "        if offer_discount or offer_breakfast or allow_late_checkout:\n",
+        "            st.success(\"✅ Actions selected! Make sure to notify the guest.\")\n",
         "\n",
-        "      else:\n",
+        "    else:\n",
         "        st.success(\"✅ This booking is likely to be CONFIRMED!\")"
       ]
     }
